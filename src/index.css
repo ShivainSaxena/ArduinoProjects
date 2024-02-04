@@ -388,8 +388,9 @@ pre{
   transition: all linear .3s;
 }
 
-.videoTrip video{
+.videoTrip iframe{
   width: 35vw;
+  height: 19vw;
 }
 
 .viddiagTrip{
@@ -553,8 +554,9 @@ pre{
     margin: 40px 0 20px 0;
   }
 
-  .videoTrip video{
-    width: 45vw;
+  .videoTrip iframe{
+    width: clamp(450px, 45vw, 600px);
+    height: clamp(300px, 30vw, 450px);
   }
 
   .previewImage{
@@ -661,7 +663,7 @@ pre{
     left: 13.3%;
   }
 
-  .videoTrip video{
+  .videoTrip iframe{
     width: 80vw;
   }
 

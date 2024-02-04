@@ -1,6 +1,5 @@
 import SyntaxHighlighter from "react-syntax-highlighter/dist/esm/default-highlight";
 import { gruvboxDark } from 'react-syntax-highlighter/dist/esm/styles/hljs';
-import Vid from "../graphics/timer.mp4";
 import lightSetup from "../graphics/timersetup.png";
 import { useState } from "react";
 
@@ -176,7 +175,7 @@ void update(int &pin, int &count, String &placeholder){
                 </div>
                 <div className="viddiagTrip">
                     <section className="videoTrip">
-                        <video src={Vid} playing="false" controls={true}></video>
+                        <iframe src="https://www.youtube.com/embed/7AV-8_XTB-U" frameborder="0" allowFullScreen title="Timer" playing="false" controls={true}></iframe>
                     </section>
                     <div className="tripSetup">
                         <img className="previewImage" src={lightSetup} alt="" />

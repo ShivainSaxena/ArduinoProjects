@@ -1,6 +1,5 @@
 import SyntaxHighlighter from "react-syntax-highlighter/dist/esm/default-highlight";
 import { gruvboxDark } from 'react-syntax-highlighter/dist/esm/styles/hljs';
-import Vid from "../graphics/trip.mp4";
 import tripSetup from "../graphics/tripsetup.png";
 import { useState } from "react";
 
@@ -64,7 +63,7 @@ const TripWire = () => {
                 </div>
                 <div className="viddiagTrip">
                     <section className="videoTrip">
-                        <video src={Vid} playing="false" controls="true"></video>
+                        <iframe src="https://www.youtube.com/embed/pBYS4-e-eNg" title="TripWire" frameborder="0" playing="false" controls="true" allowFullScreen></iframe>
                     </section>
                     <div className="tripSetup">
                         <img className="previewImage" src={tripSetup} alt="" />

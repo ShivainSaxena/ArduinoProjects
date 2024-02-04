@@ -1,6 +1,5 @@
 import SyntaxHighlighter from "react-syntax-highlighter/dist/esm/default-highlight";
 import { gruvboxDark } from 'react-syntax-highlighter/dist/esm/styles/hljs';
-import Vid from "../graphics/light.mp4";
 import lightSetup from "../graphics/lightsetup.png";
 import { useState } from "react";
 
@@ -74,7 +73,7 @@ const LightFlip = () => {
                 </div>
                 <div className="viddiagTrip">
                     <section className="videoTrip">
-                        <video src={Vid} playing="false" controls={true}></video>
+                        <iframe src="https://www.youtube.com/embed/FjCfiuXlac0" playing="false" allowFullScreen frameborder="0" title="LightFlip" controls={true}></iframe>
                     </section>
                     <div className="tripSetup">
                         <img className="previewImage" src={lightSetup} alt="" />

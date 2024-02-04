@@ -1,6 +1,5 @@
 import SyntaxHighlighter from "react-syntax-highlighter/dist/esm/default-highlight";
 import { gruvboxDark } from 'react-syntax-highlighter/dist/esm/styles/hljs';
-import Vid from "../graphics/plant.mp4";
 import plantSetup from "../graphics/plantsetup.png";
 import { useState } from "react";
 
@@ -126,7 +125,7 @@ void loop() {
                 </div>
                 <div className="viddiagTrip">
                     <section className="videoTrip">
-                        <video src={Vid} playing="false" controls={true}></video>
+                        <iframe src="https://www.youtube.com/embed/Nh0VbRxTL34" frameborder="0" title="Plant" allowFullScreen playing="false" controls={true}></iframe>
                     </section>
                     <div className="tripSetup">
                         <img className="previewImage" src={plantSetup} alt="" />
