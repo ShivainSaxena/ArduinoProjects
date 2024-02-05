@@ -39,7 +39,8 @@ const About = () => {
                     <p className="contactHead">Contact Info</p>
                     <p className="contactBody"><b>Email</b>: maanasksaxena@gmail.com <br />
                     <b>Phone Number</b>: 780-918-7289 <br />
-                    <b>Linkedln</b>: blahblah</p>
+                    <b>Linkedln</b>: <a href="www.linkedin.com/in/maanas-saxena-0bbb63293" target='_blank' rel="noreferrer">linkedin.com/in/maanas-saxena</a>
+                    <b>GitHub</b>: <a href="https://github.com/jayy004" target='_blank' rel="noreferrer">github.com/jayy004</a></p>
                 </div>
                 <div className="personM" onClick={() => setMaanas(c => !c)}>
                     <img src={Maanas} alt="Profile" className="profilepic" />
