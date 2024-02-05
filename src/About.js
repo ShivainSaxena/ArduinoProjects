@@ -44,7 +44,7 @@ const About = () => {
                 <div className="personM" onClick={() => setMaanas(c => !c)}>
                     <img src={Maanas} alt="Profile" className="profilepic" />
                     <p className="name">Maanas Saxena</p>
-                    <p className="summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sollicitudin neque eget arcu auctor lobortis. In tempor sem eu ante sagittis suscipit. Proin vehicula nisl in libero viverra, at eleifend tortor mollis. Duis sit amet molestie erat. Pellentesque vitae sem et lectus vestibulum maximus vitae vitae purus.</p>
+                    <p className="summary">Hi! I'm Maanas a Computer-Nano Engineering student at the University of Alberta. My journey in this field has been fueled by a passion for bringing software to life, whether through crafting innovative projects on Arduino, developing responsive websites, or diving into the world of data analysis and visualization.</p>
                     <p className='final'>Click for contact info</p>
                 </div>
             </div>
