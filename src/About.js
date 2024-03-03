@@ -1,5 +1,5 @@
 import Shivain from './graphics/shivain.png';
-import Maanas from './graphics/maanas.png';
+import Maanas from './graphics/maanas.JPG';
 import Arduino from './graphics/motherboard.png';
 import { useState } from 'react';
 
